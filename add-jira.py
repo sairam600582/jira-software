@@ -13,9 +13,9 @@ def createJira():
 
     url = "https://sairam0.atlassian.net/rest/api/3/issue"
 
-    API_TOKEN="ATATT3xFfGF05Vb2f4pXdlrajHwn4EaqcEdjEsN90VO0BY17bnVI05aqaQ0JiiFnAvB2zxD5EmrIF-Y0E3qp8MgS_b-yMyQkqcxFq40VhvzNf3koCsuOGbe_zcwt1l6L6m0U1IkbVvwQ0FH3iak6gQYQtiiSrgehrypR19ClH3SY6qCEUEi4Oyg=C38E2AE1"
+    API_TOKEN=""
 
-    auth = HTTPBasicAuth("bisaisairam143p@gmail.com", API_TOKEN)
+    auth = HTTPBasicAuth("@gmail.com", API_TOKEN)
 
     headers = {
         "Accept": "application/json",
